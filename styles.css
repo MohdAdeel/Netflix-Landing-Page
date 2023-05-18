@@ -1,0 +1,108 @@
+body{
+    padding: 0px;   
+    margin: 0px;
+    overflow-y: hidden;  /* This is used for no y-axis movement on Page */ 
+}
+
+.main-div-root{
+    background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)) , url("./PK-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    /* This is used for inserting background pic on Page */     
+}
+
+.nav--bar {
+    padding-top: 1;
+    padding-left: 5vh; /* Moving Logo From left to right*/
+    padding-right: 5vh; /* Moving Button from Left to right */
+    align-items: center;    /* For Centering the content */
+    display: flex;   /* For inline display of text of buttons (probably any thing in div)  */
+    justify-content: space-between; /* This is used for creating space between the items available in this div */
+    }
+
+.sign-in{
+    background-color: #e50914; /* Background Color Changed */
+    color: white; /* Font Color Changed */
+    border: none;   /* Removing Border */
+    padding-top: 8px; /* For Resizing Button  */
+    padding-bottom: 8px; /* For Resizing Button  */
+    margin-right: 8px;  /* For Resizing Button  */
+    border-radius: 5px;   /* For Rounded Corners of Button  */
+    /* width: fit-content; */
+    font-family: Arial, Helvetica, sans-serif;  /* Changing Defualt fonts */
+    cursor: pointer; /* used to change cursor arrow from pointer */
+}
+
+
+.netflix-logo{
+    width: 14%;
+    /* Logo resized */
+}
+
+.main-container{
+    width: 100%;    /* Full size width */
+    height: 90vh;   /* 90vh is used because 10 vh is occupied by navbar */   
+    display: flex; /* Using Flex Container */
+    flex-direction: column; /* Giving Direction to my Flex Box to colomn */
+    justify-content: center; /* For Centering the content */
+    align-items: center; /* For Centering the content according to y-axis*/
+}
+
+.title-container{
+    color: white;
+    text-align: center; 
+    width: 50%; /* Using 50% width of total container */
+}
+
+.heading{
+    font-size: 3.2em;
+    margin-bottom: 14px;
+}
+
+.semi-heading{
+    font-family: Arial, Helvetica, sans-serif; /* Changing Defualt fonts */
+    font-size: 1.5em;
+    margin-bottom: 30px; /* Giving Bottom margin to second Heading2 */
+
+
+}
+
+.para-writ{
+    font-family: Arial, Helvetica, sans-serif; /* Changing Defualt fonts */
+    font-size: 1.2em; /* Font size changed */
+
+}
+
+
+.email-container{
+    width: 55%; /* Using 55% of container */
+    /* height: fit-content;  */
+    background-color: #ffffff;
+    display: flex; /* Display used as flex */
+    flex-direction: row; /* Giving Direction to my Flex Box to row */
+    justify-content: space-between;  /* This is used for creating space between the items available in this div */
+    align-items: center; /* For Centering the content according to y-axis*/
+}
+
+.email-input{
+    outline: none; /* For Removing Outline */ 
+    border: none; /* For Removing Border */ 
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+
+.btn-email{
+    cursor: pointer;
+    padding: 18px 32px;
+    background-color: #e50914;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    color: #ffffff;
+    font-size: 1.4em;
+    text-align: center;
+
+}
+
+
+.btn-email:hover{
+    background-color: #ff0b18; /* On hovering color will be changed of the button */
+}
